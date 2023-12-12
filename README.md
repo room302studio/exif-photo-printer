@@ -1,19 +1,15 @@
-# Room 302 Nuxt 3 Starter
+# EXIF Photo Printer
+
+This is a web app tool that allows you drop a bunch of photos and then create new photos for printing with the EXIF data printed on the photo in a border. 
+
+This is useful when evaluating photos for a photo book or otherwise organizing your photos physically.
+
 
 ## Usage
-`npx room302-template`
-
-Deployed through a small script that handles naming, cloning, and setting up the repo for prototyping. <https://www.npmjs.com/package/room302-template>
-
-## What's different from the standard Nuxt 3 starter?
-- VueUse 🔧 
-- Vueuse motion 🌈 
-- OpenAI plugin 🧠 
-- Pinia store 🏬 
-- Helpers file 🔨 
-- Google fonts 🖋️ 
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+- Drag and drop your photos into the application
+- Choose which EXIF data you want to print on the photo
+- Choose some basic styling options
+- "Save All" to save the photos with EXIF data back to your hard drive
 
 ## Setup
 
