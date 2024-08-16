@@ -12,6 +12,10 @@
       </form>
     </div>
 
+    <div v-for="file in files" :key="file.name">
+      <PhotoWithExif :file="file" />
+    </div>
+
     <!-- {{ filesArray }} -->
     <UTable :rows="filesArray" />
   </div>
@@ -67,6 +71,7 @@ async function fileDrop(event) {
       Model,
       ExposureTime, FNumber, FocalLength, DateTimeOriginal,
       // exif
+      imageUrl: URL.createObjectURL(file)
     }
 
     filesArray.value.push(fileObj)
